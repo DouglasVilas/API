@@ -10,6 +10,6 @@ const usersController = new UsersController(); //criando um nova estancia de uma
 
 usersRoutes.post("/", usersController.create);
 
-
+usersRoutes.put("/:id", usersController.update);
 
 module.exports = usersRoutes;
