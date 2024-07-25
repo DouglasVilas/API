@@ -33,4 +33,4 @@ const PORT = 3333; //criou um constância e a porta que vai ser usado
 app.listen(PORT, () => console.log(`Server is running on Port ${PORT}`)); //listen e tipo escutando quando ela executar vai rodar a mensagem do console.log (terminal)
 
 
-//parei no operador de like 
+//parei operador de like
